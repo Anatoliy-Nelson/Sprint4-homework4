@@ -1,5 +1,5 @@
 type StateType = {
-    themeId: number;
+    themeId: number
 }
 
 const initState: StateType = {
