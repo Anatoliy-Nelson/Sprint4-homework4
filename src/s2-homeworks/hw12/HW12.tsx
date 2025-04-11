@@ -40,11 +40,12 @@ const HW12 = () => {
             </div>
 
             <div className={s2.hw}>
+                <p>Выберите тему</p>
                 <SuperSelect
                     id={'hw12-select-theme'}
                     className={s.select}
                     options={themes}
-                    value={themeId}
+                    //value={themeId}
                     onChangeOption={change}
                 />
             </div>
